@@ -1,0 +1,11 @@
+// weighted positive edges graph
+// common graph with weighted edges
+    vector<edge> edges = {
+        edge{"a","b",3}, edge{"a","d",6}, edge{"a","c",9}, edge{"b","d",4},
+        edge{"b","e",2}, edge{"b","f",9}, edge{"b","c",9}, edge{"c","f",8},
+        edge{"c","j",18}, edge{"d","g",9}, edge{"d","e",2}, edge{"e","g",9},
+        edge{"e","f",8}, edge{"f","g",7}, edge{"f","i",9}, edge{"f","j",10},
+        edge{"g","h",4}, edge{"g","i",5}, edge{"h","j",4}, edge{"h","i",1},
+        edge{"i","j",3}
+    };
+
